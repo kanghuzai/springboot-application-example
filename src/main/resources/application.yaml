@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: springboot-example
+  rabbitmq:
+    host: "127.0.0.1"
+  task:
+    execution:
+      pool:
+        core-size: ${rabbitmq.producer.count:10}
+        max-size: ${rabbitmq.producer.count:10}
+        queue-capacity: ${rabbitmq.producer.count:10}
