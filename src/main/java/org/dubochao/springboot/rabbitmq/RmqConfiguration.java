@@ -39,9 +39,9 @@ public class RmqConfiguration {
     private int consumerPrefetch;
     @Value("${rabbitmq.producer.work-millisecond:1000}")
     private int producerWorkTime;
-    @Value("${rabbitmq.consumer.work-millisecond:${rabbitmq.producer.work-millisecond:900}}")
+    @Value("${rabbitmq.consumer.work-millisecond:${rabbitmq.producer.work-millisecond:600}}")
     private int consumerWorkTime;
-    @Value("${rabbitmq.queue.name-prefix:zhangchao.network.test.queue}")
+    @Value("${rabbitmq.queue.name-prefix:dubochao.network.test.queue}")
     private String queueNamePrefix;
 
 

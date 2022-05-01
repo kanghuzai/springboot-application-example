@@ -12,7 +12,7 @@ springboot常用功能使用示例
 | rabbitmq.queue.count                | 50                          | 模拟队列数    |
 | server.port                         | 8080                        | http端口   |
 | rabbitmq.producer.work-millisecond  | 1000                        | 生产者处理时间  |
-| rabbitmq.consumer.work-millisecond  | 900                         | 生产者处理时间  |
+| rabbitmq.consumer.work-millisecond  | 600                         | 生产者处理时间  |
 | rabbitmq.queue.name-prefix          | dubochao.network.test.queue | 网络模拟测试队列 |
 
 ```shell
